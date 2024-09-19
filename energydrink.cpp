@@ -8,7 +8,7 @@ int main()
     float energyDrink = 0.15;
     float preferCitris = 0.58;
 
-    cout << "Customers that drink more than one energy drink: " << (Customers * energyDrink) << "\n";
+    cout << "Customers that drink more than one energy drink per week: " << (Customers * energyDrink) << "\n";
     cout << "Customers that prefer citrus flavored energy drinks: " << (Customers * preferCitris) << "\n";
 
     return 0;
